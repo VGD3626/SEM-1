@@ -1,0 +1,311 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage{graphicx}
+\usepackage{pgf}
+\usepackage{pgfpages}
+\pgfpagesdeclarelayout{boxed}
+{
+ \edef\pgfpageoptionborder{0pt}
+}
+{
+ \pgfpagesphysicalpageoptions
+ {%
+ logical pages=1,%
+ }
+ \pgfpageslogicalpageoptions{1}
+ {
+ border code=\pgfsetlinewidth{2pt}\pgfstroke,%
+ border shrink=\pgfpageoptionborder,%
+ resized width=.95\pgfphysicalwidth,%
+ resized height=.95\pgfphysicalheight,%
+ center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+ }%
+}
+\pgfpagesuselayout{boxed}
+\title{\textbf{\Huge{PROGRAMMING} LANGUAGES\\finding the most popular one}}
+\date{}
+\author{\\ \\ \\ \\ \\ \Large{\bftext{VRUND GHANSHYAMBHAI} DOBARIYA} \\\large{Roll no. CE029 }\\
+\large{SID no. 22CEUOS146} \\ \\ \\ B.Tech(CE) Sem-1 \\ \large{Software Workshop LAB 05}}
+\begin{document}
+\maketitle
+\begin{center}
+\includegraphics[scale=2.0]{ddu logo}
+\end{center}
+\\
+\\
+\\
+\\
+\begin{centering}
+\large{\textbf{Dharmsinh Desai University,
+Nadiad}} \\
+\\
+\\
+{\textbf{Faculty of Technology}}\\
+\\
+\\
+{\textbf{Department of Computer Engineering \\}}
+\end{centering}
+\newpage
+\begin{center}
+\begin{center}
+\includegraphics[scale=1.0]{ddu logo}
+\end{center}
+\textbf{\Huge{\underline{\bftext{CERTIFICATE}}}} \\ 
+\end{center} \\
+\Large{
+This is to certify that \textbf{Software Workshop} project entitled \textbf{"PROGRAMMING LANGUAGES : finding the most popular one"} is the bonafide report of work carried our by \\
+\begin{center}
+\textbf{{VRUND GHANSHYAMBHAI DOBARIYA}}
+\end{center}\\
+of department of Computer Engineering, Sem-I, of Academic year 2022-2023,under supervision and 
+guidance of \\
+\begin{center}
+\textit{Prof. sanjay bhimani} 
+\end{center}
+}
+\tableofcontents
+\chapter{Introduction}
+
+\section{\large{why do we need different tyres of programming languages?}}\\
+ \large{The world of Programming Languages is very dynamic. Every company is launching their own programming language which can 
+cater their specific demand and requirement. In this paper, we discussed various popular rankings proposed by different organizations to decide 
+most popular language on basis of various factors like number of Google Trends searches, number of job advertisements, and number of books 
+sold for that language and many more factors. 
+\\
+  It is difficult to decide which programming languages are most widely used. One language may occupy the greater number of 
+programmer hours, a different one have more lines of code, a third may utilize the most CPU time, and so on. Some languages are 
+very popular for particular kind of applications. For example, COBOL is still strong in the corporate data center, often on large 
+mainframes; FORTRAN in engineering applications; C in embedded applications and operating systems; and other languages are 
+regularly used to write much different kind of applications.
+}
+\\
+\newpage
+\\
+\\
+\section{\large{methods of measuring programming languages popularity}} \\ \\
+\large{
+\\ \\A. Counting the number of times the language name is mentioned in web searches, such as is done by Google Trends.
+\\ \\B. counting the number of job advertisements that mention the language.
+\\ \\C. the number of books sold that teach or describe the language.
+\\ \\D. estimates of the number of existing lines of code written in the language – which may underestimate languages not 
+often found in public searches. \\ \\E.counts of language references (i.e., to the name of the language) found using a web search engine. \\ \\ F.counting the number of projects in that language on SourceForge, and GitHub
+\\ \\G. counting the number of postings in Usenet newsgroups about the language
+\\ \\H. comparing the number of commits or changed source lines for open source projects on Open Hub
+ }
+\begin{center}
+\chapter{Reports published on popularity of languages}
+\end{center}
+\newpageSeveral several indices have been published to decide popularity of programming languages which are given below:
+\\ \\The monthly TIOBE Programming Community Index has been published since 2001, and shows the top 10 languages' 
+popularity graphically, the top 20 languages with a rating and delta, and the top 50 languages' ratings.The numbers are based 
+on searching the Web with certain phrases that include language names and counting the numbers of hits returned.
+\\ \\The PYPL PopularitY of Programming Language is an indicator based on Google Trends, reflecting the developers' searches 
+for "programming language tutorial", instead of what pages are available.It shows the popularity trends since 2004, 
+worldwide or separated for 5 countries.
+\\ \\The RedMonk Programming Language Rankings are derived from a correlation of programming traction on GitHub (usage) 
+and Stack Overflow (discussion).
+\\ \\ The Trendy Skills[16] searches and extracts from popular advertising websites the skills and technologies that employers are 
+looking and classifies skills sought in categories, one of which is the Programming Languages category. It allows the user to 
+see the trends for one or more skills or categories at specified time ranges. Data is also accessible via a public API, so anyone 
+can generate their own statistics.
+\\ \\Indeed 2016 survey. Results show that among job advertisements Java is more popular than other languages combined.
+\\ \\Stack Overflow's 2016 Developer Survey Results. According to poll JavaScript is used by 55 percantege of developers.
+\\ \\ Krihelinator.xyz ranks programming languages based on their github contribution rate according to this formula.
+\\ \\IEEE Spectrum's 2016 ranking of top programming languages"
+synthesizes 12 metrics from 10 sources to arrive at an 
+overall ranking of language popularity".The various metrics were collected from GitHub, Google 
+Search and Trends, Twitter, Stack Overflow, Reddit, Hacker News, Career Builder, Dice.com, and IEEE Xplore Digital 
+Library. The interactive ranking application allows adjustment of each metric's weight, and also filtering languages by "type" 
+(Web, Mobile, Enterprise, Embedded).
+\begin{center}
+\chapter{TIOBE index} \\
+\end{center}
+\\
+Java and C are in a heavy downward trend since the beginning of 2016. Both languages have lost more than 6 prcentage if compared to 
+last year. Other languages are taking advantage of this drop. The TIOBE Programming Community index is an indicator of the 
+popularity of programming languages which is updated every month. These ratings are based on the number of skilled engineers 
+world-wide, courses and third party vendors. Popular search engines such as Google, Bing, Yahoo!, Wikipedia, Amazon, 
+YouTube and Baidu are used to calculate these ratings. The index can be used to check whether your programming skills are still 
+up to date or to make a strategic decision about what programming language should be adopted when starting to build a new 
+software system.
+\\
+\\
+\begin{center}
+\\
+To see the bigger picture, please find below the positions of the top 10 programming languages of many years back. These are 
+average positions for a period of 12 months.
+\end{center}
+\begin{center}
+\begin{tabular}{||c|c|c|c|c|c|c|c||}
+   Programming Language & 2017& 2012& 2007& 2002& 1997& 1992& 1987\\
+Java& 1& 1& 1& 1 &14& -& -\\
+C &2 &2& 2& 2& 1& 1& 1\\
+C++& 3& 3& 3& 3& 2& 2& 4\\
+C# &4 &4 &7 &14 &- &- &-\\
+Python& 5 &7 &6 &9 &27 &- &-\\
+PHP &6 &5 &4 &5 &- &- &-\\
+JavaScript& 7& 9& 8& 7& 20& -& -
+\\Visual Basic .NET &8 &21& -& - &- &-& -
+\\Perl& 9& 8& 5& 4& 4& 11& -
+\\Assembly language &10 &-& - &- &- &- &-
+\\COBOL &25 &31 &17& 6& 3 &13& 8
+\\Lisp &31& 12 &14& 10& 9 &9 &2
+\\Prolog &33 &37 &26 &13 &18 &14 &3
+\\Pascal& 102& 13& 19& 29& 8 &3 &5\\
+\end{tabular}
+\end{center}
+\\
+\\
+\\
+\\
+\begin{center}
+    \\
+    \\
+    \\
+\end{center}
+\begin{center}
+    \\
+    \\
+    \\
+\end{center}
+
+\begin{center}
+\\
+\begin{tabular}{||c|c||}
+2003&C++\\ 2004&PHP \\2005&Java \\ 2006&Ruby\\  2007&Python\\ 2008&C\\ 2009&Go\\ 2010&Python \\2011&Objective-C\\ 2012&Objective-C\\ 2013&Transact-SQL\\ 2014&JavaScript \\2015 &Java \\ 2016&Go
+\\      
+\end{tabular}
+\begin{center}
+    \\
+    \\
+    \\
+\end{center}
+The hall of fame listing all "Programming Language of the Year" award winners is shown below. The award is given to the 
+programming language that has the highest rise in ratings in a year. 
+\end{center}
+
+
+\begin{center}
+\chapter{the redmonk programming language rankings} 
+\end{center}
+The data was dutifully collected and analyzed at RedMonk. Periodically, the performance of programming languages compared
+relative to one another on GitHub and Stack Overflow. The idea is not to offer a statistically valid representation of current usage, 
+but rather to correlate language discussion (Stack Overflow) and usage (GitHub) in an effort to extract insights into potential 
+future adoption trends. With the exception of GitHub’s decision to no longer provide language rankings on its Explore page – they 
+are now calculated from the GitHub archive – the rankings are performed in the same manner, meaning that we can compare
+rankings year to year, with confidence.
+Historically, the correlation between how a language ranks on GitHub versus its ranking on Stack Overflow has been strong, but 
+this had been weakening in recent years. From its highs of .78, the correlation was down to .73 during our last run – the lowest 
+recorded. For this run, however, the correlation between the properties is once again robust. For this quarter’s ranking, the
+correlation between the properties was .77, just shy of its all time mark. Given the recent variation, however, it will be interesting 
+to observe whether or not this number continues to bounce.
+Before we continue, please keep in mind the usual caveats.
+\\ \\ To be included in this analysis, a language must be observable within both GitHub and Stack Overflow.
+\\ \\ The examination of the correlation between two populations is to be predictive of future use, hence their value.
+\\ \\ GitHub and Stack Overflow are surveyed here first because of their size and second because of their public exposure of 
+the data necessary for the analysis. 
+\\ \\The numerical ranking is substantially less relevant than the language’s tier or grouping. In many cases, one spot on the 
+list is not distinguishable from the next. The separation between language tiers on the plot, however, is generally 
+representative of substantial differences in relative popularity.
+\\ \\ GitHub language rankings are based on raw lines of code, which means that repositories written in a given language that 
+include a greater amount of code in a second language (e.g. JavaScript) will be read as the latter rather than the former.
+\\ \\ In addition, less data is available to rank languages further down the rankings so the actual placement of languages 
+becomes less reliable down the list.\\
+\begin{center}
+    \includegraphics{image.png}
+\end{center}
+Figure: 4.1\\
+\begin{center}
+    \includegraphics[scale=0.85]{dd.jpeg}
+\end{center}
+Figure:4.2\\
+We offer the following numerical rankings. As will be observed, this run produced several ties which are reflected below (they 
+are listed out here alphabetically rather than consolidated.
+\\1. JavaScript
+\\2. Java
+\\3. PHP
+\\4. Python
+\\5. C#
+\\6. C++
+\\7. Ruby
+\\8. CSS
+\\9. C
+\\10. Objective-C
+\\11. Shell
+\\12. Perl
+\\13. R
+\\14. Scala
+\\15. Go
+\\16. Haskell
+\\17. Swift
+\\18. Matlab
+\\19. Clojure
+\\20. Groovy
+\\21. Visual Basic
+JavaScript’s continued strength is impressive, as is Java’s steady, robust performance. The long time presence of these two 
+languages in particular atop our rankings is no coincidence; instead it reflects an increasing willingness to employ a best-tool-forthe-job approach, even within the most conservative of enterprises. In many cases, Java and JavaScript are leveraged side-by-side 
+in the same application, depending on its particular needs. Just as JavaScript and Java’s positions have remained unchanged, the 
+rest of the Top 10 has remained similarly static. This has become the expectation rather than a surprise. As with businesses, the 
+larger a language becomes, the more difficult it is to outperform from a growth perspective. This suggests that what changes we’ll 
+see in the Top 10 will be slow and longer term, that fragmentation has begun to slow. The two most obvious candidates for a Top 
+10 ranking at this point appear to be Go and Swift, but they have their work cut out for them before they get there.
+
+    \chapter{Glassdor Programming Language Ranking}
+    \\
+    \\
+    Glassdoor recently published a report on the top 25 lucrative, in-demand jobs. More than half of the jobs listed are in tech and 
+require programming skills. For a fast-growing and lucrative career, everyone wants to make learning to best programming 
+language. We compiled data from Indeed.com (database including current computer programmer jobs). While this isn’t an 
+extensive list, it does provide insight into the most in-demand programming languages sought after by employers.\\
+\begin{center}
+    \includegraphics[scale=0.75]{kk.png}\\
+    figure:5.1\\
+\end{center}\\
+\begin{center}
+    \includegraphics[scale=0.80]{Screenshot_20230115_115641.png}\\
+    figure:5.2\\
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.75]{R.png}\\
+    figure:5.3\\
+\end{center}\\
+\begin{center}
+\chapter{conclusion}
+In conclusion, Java Programming Language is maintaining its first position where as C and C++ is at positions 2nd and 3rd
+respectively since last 15 years. Java Script and SQL cannot be considered as programming languages but these are occupying top 
+positions in various rankings depending upon number of jobs available in the market and number of searches at Google Trends 
+and various search Engines. Python, PHP and Ruby are also gaining grounds in this dynamic world of programming languages. 
+\end{center}
+\chapter{Bibliography} 
+
+\\
+Tool used :
+\\www.overleaf.com
+\\
+\\
+[1] "SSL/Computer Weekly IT salary survey: finance boom drives IT job growth". ComputerWeekly.com. September 2007. Retrieved 14
+June 2013.
+\\[2] "Jobs Tractor language trends, based on jobs advertised on Twitter". JobsTractor. Retrieved 14 June 2013.
+\\[3] O'Reilly, Tim. "Programming Language Trends". O'Reilly Radar. Retrieved 14 June 2013.
+\\[4] "State of the Computer Book Market 2008, part 4 — The Languages - O'Reilly Radar". Radar.oreilly.com. 2009-02-25.
+Retrieved 2017-03-14.
+\\[5] Bieman, J.M.; Murdock, V., Finding code on the World Wide Web: a preliminary investigation, Proceedings First IEEE International
+Workshop on Source Code Analysis and Manipulation, 2001
+\\[6] "Tiobe Index Definition". TIOBE Software. Retrieved 10 April 2012.
+1993 1998 2003 2008
+ADA C C++
+FORTRAN JAVA PASCAL
+SMALLTALK
+\\[7] "Programming Language Usage Graph". Wismuth.com. 2010-10-31. Retrieved 2017-03-14.
+\\[8] "Trends for the Future". Catb.org. Retrieved 2017-03-14.
+\\[9] "Language Trends on GitHub · GitHub". github.com. 2015-08-19. Retrieved 2017-03-14.
+\\[10] "Programming language popularity". Complang.tuwien.ac.at. Retrieved 2017-03-14.
+\\[11] "Compare Languages". Open Hub. Retrieved 2017-01-20.
+\\[12] "TIOBE Programming Community Index". TIOBE Software BV. Retrieved 14 June 2013.
+\\[13] "PYPL PopularitY of Programming Language index". Pypl.github.io. 2013-11-22. Retrieved 2017-03-14.
+\\[14] "PYPL PopularitY of Programming Language index". Pypl.github.io. 2013-11-22. Retrieved 2017-03-14.
+\\[15] O'Grady, Stephen (2016-02-19). "The RedMonk Programming Language Rankings: January 2016". Redmonk.com. Retrieved 2017-
+03-14.\\
+\begin{center}
+    *****
+\end{center}
+\end{document}
